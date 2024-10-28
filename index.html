@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DATA CAT</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    
+    <!-- BOX ICONS -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- REMIX ICON -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
     <!-- NAV -->
@@ -12,10 +26,10 @@
     <a href="#" class="logo">DATA CAT</a>
 
     <ul class="navlist">
-     <li><a href="">HOME</a></li>
-     <li><a href="">ABOUT</a></li>
-     <li><a href="">SERVICES</a></li>
-     <li><a href="">CONTACT</a></li>
+     <li><a href="#home">HOME</a></li>
+     <li><a href="#about">ABOUT</a></li>
+     <li><a href="#services">SERVICES</a></li>
+     <li><a href="#contact">CONTACT</a></li>
     </ul>
  
     <div class="bx bx-menu" id="menu-icon"></div>
@@ -24,7 +38,7 @@
    <div class="sections">
 
     <!-- SPLASH -->
-    <section class="splash">
+    <section class="splash" id="home">
       <div class="splash-text">
         <h1>YOUR VISION</h1>
         <h2>OUR EXPERTISE - PERFECTLY WIRED</h2>
@@ -34,12 +48,13 @@
         <img src="/logo_white.png" class="data-cat-logo" alt="">
       </div>
     </section>
+    <!-- ABOUT -->
     <section>
-      <div class="about">
-        <div class="about-title">
+      <div class="about" id="about">
+        <div class="section-title">
           <h1 class="title">ABOUT</h1>
         </div>
-        <div class="about-info">
+        <div class="section-info">
           <img src="/dawg.jpeg" class="dawg" alt="">
           <p>
             Welcome to Data Cat Technologies, where innovation meets precision in the world of low voltage solutions. Founded in the heart of Southern California’s vibrant Orange County, we are dedicated to delivering excellence in every facet of infrastructure data wiring, camera surveillance, access control, and audio-visual installations.
@@ -58,18 +73,74 @@
         <!-- <div class="about-img"></div> -->
       </div>
     </section>
-
-    <section class="services">
-      <h1 class="title">SERVICES</h1>
+    <!-- SERVICES -->
+    <section>
+      <div class="services" id="services">
+        <div class="section-title">
+          <h1 class="title">SERVICES</h1>
+        </div>
+        <div class="section-info">
+          <h3>
+            Data Wiring Solutions
+          </h3>
+          <p>
+            Seamless and efficient infrastructure data wiring to keep your operations running smoothly and reliably.
+          </p>
+          <h3>Camera Surveillance Systems</h3>
+          <p>Advanced surveillance solutions designed to provide peace of mind with comprehensive security coverage.</p>
+          <h3>Access Control Systems</h3>
+          <p>State-of-the-art access control installations that ensure secure and streamlined management of your facilities.</p>
+          <h3>Audio & Visual Installations</h3>
+          <p>Exceptional audio-visual setups tailored to enhance your environment with superior sound and visual experiences.</p>
+        </div>
+      </div>
+    </section>
+    <!-- CPNTACT -->
+    <section>
+      <div class="contact" id="contact">
+        <div class="section-title">
+          <h1 class="title">CONTACT</h1>
+        </div>
+        <div class="section-info">
+          <h2>Data Cat Technologies</h2>
+          <h3>Southern California, Orange County, and Surrounding Areas</h3>
+          <p>
+            <br>
+            <strong>Phone:</strong> 657-712-0535<br>
+            <strong>Email:</strong> Moses.Sanchez@DataCatTechnologies.com
+            <br>
+            <strong>Office Hours:</strong>
+            <br>
+            Monday - Friday: 9:00 AM - 6:00 PM
+            <br>
+            Saturday - Sunday: By Appointment
+            <br>
+            <strong>Connect with Us:</strong>
+            <br>
+            Feel free to reach out for inquiries, consultations, or to schedule a service. I look forward to collaborating with you to achieve your technology needs.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="contact">
-      <h1 class="title">CONTACT</h1>
+    <section class="work-resume">
+      <div class="work_imgs">
+        <img src="/camera.jpeg" alt="">
+        <img src="/conference_room.jpg" alt="">
+        <img src="/security_display.jpeg" alt="">
+        <img src="/camera2.jpeg" alt="">
+        <img src="/lock.jpeg" alt="">
+        <img src="/door.jpeg" alt="">
+        <img src="/door2.jpeg" alt="">
+        <img src="/door3.jpeg" alt="">
+        <img src="/camera3.jpeg" alt="">
+        <img src="/door4.jpeg" alt="">
+        
+        <img src="/wiring.jpeg" alt="">
+      </div>
     </section>
-
-    <div class="scroll">
-      <a href=""><i class="ri-arrow-down-double-fill"></i></a>
-    </div>
+<!-- 
+    <section></section> -->
    </div>
 </body>
 </html>
