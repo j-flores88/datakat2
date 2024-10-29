@@ -217,11 +217,11 @@ section{
         padding: 0 10% !important;
     }
     .splash h1 {
-        font-size: 60px !important;
+        font-size: 60px ;
     }
 
     .splash h2 {
-        font-size: 20px !important;
+        font-size: 20px;
     }
 }
 
@@ -322,6 +322,15 @@ section{
 
 /* MOBILE */
 @media screen and (max-width: 480px){
+    .splash-text{
+        justify-content: center;
+    }
+    .splash h1 {
+        font-size: 55px;
+    }
+    .splash h2 {
+        font-size: 15px;
+    }
     .section-info {
         margin-top: 40% !important;
     }
