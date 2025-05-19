@@ -209,6 +209,12 @@ section{
     filter: drop-shadow(0 0 0.35rem rgb(255, 255, 255));
 }
 
+.license-number {
+    pointer-events: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* TABLETS */
 @media screen and (max-width: 800px){
     .splash {
