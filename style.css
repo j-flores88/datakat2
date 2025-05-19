@@ -350,4 +350,9 @@ section{
     .contact {
         justify-content: center;
     }
+    .license-number {
+        pointer-events: none;
+        text-decoration: none;
+        color: #ffffff !important;
+    }
 }
