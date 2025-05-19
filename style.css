@@ -211,7 +211,7 @@ section{
 
 .license-number {
     pointer-events: none;
-    text-decoration: none;
+    text-decoration: none !important;
     color: #ffffff !important;
 }
 
@@ -352,7 +352,7 @@ section{
     }
     .license-number {
         pointer-events: none;
-        text-decoration: none;
+        text-decoration: none !important;
         color: #ffffff !important;
     }
 }
