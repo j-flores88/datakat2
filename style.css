@@ -212,7 +212,7 @@ section{
 .license-number {
     pointer-events: none;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 /* TABLETS */
